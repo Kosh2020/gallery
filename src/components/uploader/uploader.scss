@@ -1,0 +1,68 @@
+@import './../../variables.scss';
+
+.uploader {
+  padding: 5px 5px 5px;
+  margin: 5px auto 0px auto;
+  font-size: $small-font-size;
+  form {
+    margin: 42px auto 0px;
+    width: 100%;
+    position: relative;
+    letter-spacing: 0px;
+    white-space: nowrap;
+  }
+  input {
+    width: 100%;
+    line-height: 1.6;
+    border: 1px solid #b3b3b3;
+    padding: 10px 12px;
+    vertical-align: middle;
+    font: inherit;
+    &:focus {
+      outline: none;
+      -webkit-box-shadow: 0 0 1px 1px $text-color;
+      box-shadow: 0 0 1px 1px $text-color;
+      border-radius: 3px;
+    }
+    &::-webkit-input-placeholder {
+      color: $text-color;
+      border-radius: 3px;
+      opacity: 1;
+    }
+    &:-moz-placeholder {
+      color: $text-color;
+      border-radius: 3px;
+      opacity: 1;
+    }
+    &::-moz-placeholder {
+      color: $text-color;
+      border-radius: 3px;
+      opacity: 1;
+    }
+    &:-ms-input-placeholder {
+      color: $text-color;
+      border-radius: 3px;
+      opacity: 1;
+    }
+  }
+  label {
+    margin-right: 10px;
+    margin-left: 5px;
+  }
+  #expDes {
+    margin-left: 5px;
+    width: 100%;
+    #expDes_ {
+      color: $mistake-missage-color;
+    }
+  }
+  button {
+    position: absolute;
+    right: 5px;
+    top: 29px;
+    width: $width-button;
+    height: $height-button;
+    border: none;
+    background-color: white;
+  }
+}

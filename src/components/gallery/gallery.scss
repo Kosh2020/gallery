@@ -1,0 +1,22 @@
+.gallery {
+  margin: 20px auto 40px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  .wrap_img {
+    width: 98%;
+    height: 98%;
+  }
+  .noImages {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
