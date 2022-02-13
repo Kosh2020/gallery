@@ -13,11 +13,13 @@
     max-height: 70vh;
     margin-top: calc(100vh - 85vh - 20px);
     overflow: hidden;
+    animation: fadeIn 1s;
     .popupImage img {
       width: 100%;
       height: 100%;
       -o-object-fit: cover;
       object-fit: cover;
+      
     }
     .imageClosingButton,
     .imageDeletingButton {
@@ -29,3 +31,7 @@
     }
   }
 }
+@keyframes fadeIn {
+   0% {opacity:0}
+   100% {opacity:1}
+  }

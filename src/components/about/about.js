@@ -11,7 +11,7 @@ const About = () => (
     Реализован в виде поля ввода и кнопки “Загрузить”. <br />
     В поле можно ввести url до картинки или загрузить файл со списком картинок
     <br />
-    (формат файла — JSON, пример : https://kosh2020.github.io/1/img.json).
+    (формат файла — JSON, пример :<a href="https://kosh2020.github.io/1/img.json" target="_blank" rel="noreferrer"> https://kosh2020.github.io/1/img.json</a>).
     <br />
     Реализован в виде упорядоченного набора превью всех картинок, загруженных в галерею.
     <br />
@@ -34,10 +34,10 @@ const About = () => (
     <br />
     разрешение изображений от: ширина-320px, высота-170px до 2000px по большей стороне.
     <br /> <br />
-    Для сборки: загрузить исходный код c
-    <a href="https://github.com/Kosh2020/kosh2020.github.io.git" target="_blank" rel="noreferrer">
-      https://github.com/Kosh2020/kosh2020.github.io.git
-    </a>
+    Для сборки: загрузить исходный код c   
+    <span> <a href="https://github.com/Kosh2020/gallery.git" target="_blank" rel="noreferrer">
+          https://github.com/Kosh2020/gallery.git
+    </a></span>
     , <br />
     установить необходимые зависимости через npm install.
   </div>

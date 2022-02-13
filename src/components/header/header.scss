@@ -7,10 +7,10 @@
   padding: 10px 15px;
   min-height: $header-hight;
   .container-header {
-    margin: 30px 1% 0 1%;
+    margin: 20px 1% 0 1%;
     .logo {
       float: left;
-      margin-top: -18px;
+      margin-top: -11px;
     }
     nav {
       font-family: $main-font;
@@ -20,7 +20,7 @@
       letter-spacing: 0px;
       white-space: nowrap;
       line-height: 1;
-      @media only screen and (max-width: 991px) {
+      @media only screen and (max-width: 600px) {
         display: none;
       }
       ul {
@@ -45,7 +45,7 @@
     }
     .hamburger-menu {
       display: none;
-      @media only screen and (max-width: 991px) {
+      @media only screen and (max-width: 600px) {
         display: block;
       }
       #menu__toggle {
@@ -84,7 +84,7 @@
         -ms-flex-align: center;
         align-items: center;
         position: absolute;
-        top: 28px;
+        top: 33px;
         right: 25px;
         width: 23px;
         cursor: pointer;

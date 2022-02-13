@@ -7,6 +7,7 @@
     height: 100%;
     -o-object-fit: cover; 
     object-fit: cover;
+    animation: fadeIn 1s;
   }
   .placeholder {
     border: 2px solid white;
@@ -17,3 +18,7 @@
     background: linear-gradient(45deg, rgb(237, 242, 241), rgb(220, 227, 227) 40%);
   }
 }
+@keyframes fadeIn {
+   0% {opacity:0}
+   100% {opacity:1}
+  }
